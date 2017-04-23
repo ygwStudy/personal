@@ -5,7 +5,7 @@
 
 
 ### 地址栏中输入：就可以访问这个站点喽。
-https://macrolam.github.io/MK
+https://ygwstudy.github.io/personal/
 
 
 

@@ -1395,7 +1395,7 @@ transform:rotateZ(10deg);
     width: 120px;
     height: 120px;
     border-radius: 10px;
-    background: url(../images/myQrcode.jpg) no-repeat;
+    background: url(../images/myWeixin.png) no-repeat;
     background-size: cover;
     transition: all 1s;
 }

@@ -1,0 +1,541 @@
+/*
+ * @Author: Macrolam
+ */
+@font-face {
+    font-family: "iconfont";
+    src: url('../fonts/iconfont.eot'), url('../fonts/iconfont.woff') , url('../fonts/iconfont.ttf') , url('../fonts/iconfont.svg') ;
+}
+
+body, h1, h2, h3, h4, dl, dt, dd, ul, ol, li, textarea, input, div, p, img, button {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+
+}
+
+body, html {
+    color: #333;
+    font-size: 14px;
+    font-family: iconfont;
+    background: #eee;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+a:hover {
+    color: #5079d9;
+}
+
+i {
+    font-style: normal;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.noMgR {
+    margin-right: 0;
+}
+
+.containWrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.iconfont {
+    font-family: iconfont;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.back-top {
+    background: url('../images/btn.png') no-repeat;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 54px;
+    width: 54px;
+}
+
+.back-top:hover {
+    box-shadow: 0 0 10px 1px rgba(163, 163, 163, 0.43) inset;
+    border-radius: 10px;
+}
+/* ---------------------------------------------header page----------------------------------------------- */
+.header {
+    height: 100px;
+    background: black;
+}
+.header .nav {
+    width: 1220px;
+    margin: auto;
+    height: 100px;
+}
+
+.header .logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.header .nav1 {
+    float: right;
+    line-height: 100px;
+}
+
+.header .nav1 a {
+    cursor: pointer;
+    margin: 0 18px;
+    font-size: 15px;
+}
+
+.header .nav1 a:hover {
+    color: #eee;
+}
+
+.header .nav1 input {
+    outline: medium none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid rgba(174, 174, 174, 0.5);
+}
+/* ---------------------------------------------con page----------------------------------------------- */
+.con {
+    width: auto;
+    height: 2200px;
+}
+
+.con-in {
+    width: 1220px;
+    height: 2200px;
+    margin: 0 auto;
+}
+
+
+
+.con .menu {
+    height: 90px;
+}
+
+.con .menu a {
+    color: rgb(78, 78, 78);
+}
+
+.con .menu a:hover {
+    color: #5079d9
+}
+
+
+.con .menu-1 ul li {
+    float: left;
+    margin-right: 15px;
+    padding-right: 20px;
+    line-height: 90px;
+    font-size: 14px;
+}
+
+.con .menu-2 {
+    position: relative;
+    top: 55px;
+    left: 1110px;
+    height: 20px;
+    width: 150px;
+    z-index: 5;
+    margin: 0px;
+}
+
+.con .menu-2 a {
+    color: gray;
+    font-size: 13px;
+}
+
+.con .shopping {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+
+.con .banner {
+    height: 500px;
+    border-radius: 10px;
+    background: url('../images/banner.png');
+}
+
+.con .banner:hover {
+    box-shadow: 0px 0px 30px 6px rgb(62, 62, 62);
+}
+
+.con .sub-ban {
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 18px;
+    overflow: hidden;
+}
+
+.con .sub-ban div {
+    float: left;
+    width: 304px;
+    margin-right: 1px;
+    height: inherit;
+}
+
+.con .sub-ban div:hover {
+    box-shadow: 0px 0px 10px 6px rgba(88, 88, 88, 0.17) inset;
+}
+
+.con .title-gfjx {
+    padding-top: 30px;
+}
+
+.con .shop {
+    border-radius: 10px;
+    height: 860px;
+}
+
+.con .shop-1 {
+    border: 1px solid rgba(150, 150, 150, 0.35);
+    box-sizing: border-box;
+}
+
+.con .shop-0 {
+    background:  url('../images/shouji2.jpg');
+    width: 610px;
+    height: 430px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border: 1px solid rgba(150, 150, 150, 0.35);
+    box-sizing: border-box;
+}
+
+.con .shop ul li {
+    float: left;
+}
+
+.con .shop ul li .shop-1 {
+    height: 430px;
+    width: 305px;
+    text-align: center;
+    padding-top: 20px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.con .shop div:hover {
+    box-shadow: 0px 0px 10px 6px rgba(88, 88, 88, 0.17) inset;
+}
+
+.con .shop span {
+    display: block;
+    margin-top: 20px;
+}
+
+.con .shop .xianshi {
+    color: red;
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.con .shop .yincang {
+    display: none;
+    margin-top: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.con .shop .yincang button {
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(158, 158, 158, 0.31);
+    margin-right: 20px;
+    color: #fff;
+    background: #969696;
+}
+
+.con .shop button:hover {
+    background: #5079d9;
+}
+
+.con .shop div:hover .xianshi {
+    display: none;
+}
+
+.con .shop div:hover .yincang {
+    display: block;
+    box-shadow: none;
+}
+
+.con .title-smart {
+    margin-top: 30px;
+}
+
+.con .title-smart a {
+    float: right;
+    color: #969696;
+}
+
+.con .app {
+    height: 360px;
+    width: 1220px;
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.con .ap {
+    float: left;
+    height: inherit;
+    width: 305px;
+    padding: 80px 0px;
+    border: 1px solid rgba(150, 150, 150, 0.35);
+    box-sizing: border-box;
+}
+
+.con .app1 {
+    width: 90px;
+    height: 90px;
+    background:  url('../images/icon.png') no-repeat -95px 0px;
+    margin: auto;
+}
+
+.con .app1-w {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.con .app1-1 {
+    width: 150px;
+    height: 110px;
+    display: none;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.con .a-app {
+    float: left;
+    display: block;
+    margin-left: 15px;
+}
+
+.con .ap:hover {
+    box-shadow: 0px 0px 10px 6px rgba(88, 88, 88, 0.17) inset;
+}
+
+.con .ap:hover .app1 {
+    display: none;
+}
+
+.con .ap:hover .app1-w {
+    display: none;
+}
+
+.con .ap:hover .app1-1 {
+    display: block;
+}
+
+.con .app2 {
+    width: 90px;
+    height: 90px;
+    background:  url('../images/icon.png') no-repeat ;
+    margin: auto;
+}
+
+.con .app2-1 {
+    width: 150px;
+    height: 110px;
+    display: none;
+    margin: auto;
+    font-size: 13px;
+}
+
+.con .down-1 {
+    width: 210px;
+    height: 50px;
+    border: 1px solid #969696;
+    border-radius: 10px;
+    margin: 20px 0px 20px -25px;
+    background: rgba(208, 208, 208, 0.3);
+}
+
+.con .down-1 a {
+    display: block;
+    margin-top: 18px;
+    margin-left: 45px;
+    font-size: 15px;
+    color: gray;
+}
+
+.con .down-2 {
+    width: 210px;
+    height: 50px;
+    border: 1px solid #969696;
+    border-radius: 10px;
+    margin: 20px 0px 20px -25px;
+    background: rgb(75, 75, 75);
+}
+
+.con .down-2 img {
+. con width: 160 px;
+    height: 35px;
+    border-radius: 10px;
+    display: block;
+    margin: 8px auto auto;
+. con
+}
+
+.con .ap:hover .app2-1 {
+    display: block;
+}
+
+.con .ap:hover .app2 {
+    display: none;
+}
+
+.con .app3 {
+    width: 90px;
+    height: 90px;
+    background:  url('../images/icon.png') no-repeat -288px 0px;
+    margin: auto;
+}
+
+.con .ap:hover .app3 {
+    display: none;
+}
+
+.con .app4 {
+    width: 90px;
+    height: 90px;
+    background:  url('../images/icon.png') no-repeat -193px 0px;
+    margin: auto;
+}
+
+.con .ap:hover .app4 {
+    display: none;
+}
+
+
+/* ---------------------------------------------footer page----------------------------------------------- */
+.footer {
+    width: auto;
+    height: 300px;
+    background: rgb(249, 249, 249);
+}
+
+.footer .service {
+    width: 1220px;
+    height: inherit;
+    margin: auto;
+}
+
+.footer .service h3 {
+    margin: 30px 0px;
+    padding: 0px;
+    color: rgba(106, 106, 106, 0.93);
+    font-size: 15px;
+}
+
+.footer .service ul {
+    float: left;
+    padding: 0px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.footer a {
+    color: #969696;
+}
+
+.service ul li a {
+    margin: 5px 0px;
+    color: #969696;
+    font-size: 12px;
+}
+
+.service ul li :hover {
+    color: rgb(4, 110, 215);
+}
+
+.footer .number {
+    width: 280px;
+    float: right;
+    margin-top: 30px;
+}
+
+.footer .number h1 {
+    float: right;
+    color: rgba(34, 34, 34, 0.74);
+}
+
+.footer .number span {
+    float: right;
+    color: rgb(140, 140, 140);
+    opacity: 0.8;
+}
+
+.footer .number input {
+    float: right;
+    width: 130px;
+    height: 34px;
+    background: rgb(249, 249, 249);
+    border: 1px solid rgba(123, 123, 123, 0.51);
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #969696;
+    font-size: 14px;
+}
+
+.footer-bot {
+    width: 1220px;
+    height: 50px;
+}
+
+.footer a {
+    color: #969696;
+}
+
+.footer-in {
+    float: left;
+    height: inherit;
+    width: 750px;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 24px;
+    color: #646464
+}
+
+.footer-in a {
+    border-left: 1px solid rgb(51, 51, 51);
+    padding: 0px 5px;
+    color: #5079d9
+}
+
+.line-hr {
+    width: 100%;
+    background: #696969;
+    opacity: 0.5;
+    position: relative;
+    top: 20px;
+}

@@ -1,0 +1,1187 @@
+.contain {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.oh {
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+
+}
+
+.fr {
+    float: right;
+}
+
+.noMgR {
+    margin-right: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 14px;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #2b2b2b;
+    letter-spacing: 2px;
+
+}
+
+p, h2, h3, h4 {
+    text-shadow: 1px 1px 2px #000;
+}
+
+/*****************************/
+.animated {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.animated1s {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.animated5s {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.animated8s {
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.animated12s {
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+/*****************************/
+.main {
+    width: 980px;
+    margin: 0 auto;
+}
+
+html, body, section {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+.page1 {
+    background: url("../images/bg1.jpg");
+}
+
+.page2 {
+    background: url("../images/bg2.jpg");
+}
+
+.page3 {
+    background: url("../images/bg3.jpg");
+}
+
+.page4 {
+    background: url("../images/bg1.jpg");
+}
+
+.page5 {
+    background: url("../images/bg_004.jpg");
+}
+
+.page6 {
+    background: url("../images/bg4.jpg");
+
+}
+
+.page7 {
+    background: url("../images/bg1.jpg");
+
+}
+section {
+    position: relative;
+    background-size: cover;
+}
+section img:nth-child(1)
+{
+    width: 100%;
+}
+.page3 img:nth-child(1){
+    width:auto;
+}
+/*****************************/
+.nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    background: #fff;
+}
+
+.navIn {
+    height: 50px;
+    line-height: 50px;
+}
+
+.logo {
+    height: 50px;
+    padding-top: 10px;
+}
+
+.logo a {
+    display: inline-block;
+    height: 50px;
+}
+
+.navR {
+
+}
+
+.navR li {
+    float: left;
+    padding: 0 20px;
+}
+
+/*GPS*/
+.GPS {
+    z-index: 999;
+    width: 50px;
+    height: 300px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -150px;
+    /*background: rgba(0,0,0,0.8);*/
+    padding-top: 20px;
+
+}
+
+.GPS li {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid #3C3C3C;
+}
+
+.GPS li.cur {
+    background: rgba(255, 255, 255, 1);
+
+}
+
+/***********page1**********/
+.page1 .mousetip {
+    display: block;
+    width: 84px;
+    height: 58px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -42px;
+    background: url("../images/spritAll.fw.png") no-repeat 0 -33px;
+    animation: mouseFlash 2s infinite linear alternate;
+}
+
+@keyframes mouseFlash {
+    0% {
+        transform: translateY(10px);
+        opacity: 0.1;
+    }
+    50% {
+        transform: translateY(30px);
+        opacity: 1;
+    }
+}
+
+/*list*/
+.page1 .listBox{
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 360px;
+    margin-top: -175px;
+}
+.page1 .list {
+    width: 200px;
+    height: 350px;
+    display: block;
+    background: rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+}
+
+.page1 .list li a {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    height: 38px;
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+}
+
+.page1 a:hover {
+    color: #fff;
+    font-weight: bold;
+    background: #d90e3b;
+}
+
+.page1 .special1 {
+    overflow: hidden;
+
+}
+
+.page1 .special1 img {
+    width: 48px;
+    height: 48px;
+    transition: all 1s;
+}
+
+.page1 .special1:hover {
+    background: none;
+}
+
+.page1 .special1:hover img {
+    height: 38px;
+    width: 38px;
+}
+
+
+    /****************************page2*/
+
+.page2 img:nth-of-type(2) {
+
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 11;
+    margin-top: -190px;
+}
+
+.page2 img:nth-of-type(3) {
+
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 140px;
+    margin-top: -120px;
+}
+
+.page2 .mesBox {
+    width: 370px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 100px;
+    margin-top: -160px;
+    z-index: 10;
+    animation: p2circlePic 4s linear;
+}
+
+.page2 .lastAlpa {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -199px;
+    margin-top: -112px;
+
+}
+
+.page2 .lastAlpa .p2dengline {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    transition: all 4s 3s;
+}
+section.current .lastAlpa .p2dengline {
+    width: 0%;
+    height: 0%;
+    opacity:0;
+}
+.page2 img.circlePic {
+    width: 370px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -3px;
+    z-index: 10;
+
+}
+
+@keyframes p2circlePic {
+    0% {
+        opacity: 0;
+        transform: translateY(55px)
+    }
+    80% {
+        opacity: 0;
+        transform: translateY(15px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+
+.page2 img.line {
+    /*width: 370px;*/
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    margin-left: -390px;
+    margin-top: -133px;
+    z-index: 10;
+}
+
+.page2 img.icon1 {
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: 407px;
+    z-index: 10;
+}
+
+.page2 img.icon2 {
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: -103px;
+    z-index: 10;
+}
+
+/****************************page3*/
+.page3 .p3main {
+    overflow: hidden;
+    height: 100%;
+}
+
+.page3 .p3main li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+.page3 .p3main li > img {
+    width: 100%;
+    height: 100%;
+}
+
+.page3 .p3main li .mask {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.page3 .p3main li:hover .mask {
+    background: rgba(0, 0, 0, 0);
+
+}
+
+.page3 .p3main li .mask img {
+    display: none;
+    cursor: pointer;
+
+}
+
+.page3 .p3main li .mask:hover img {
+    display: block;
+    animation: p3Down 2s linear;
+
+}
+
+@keyframes p3Down {
+    0% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    50% {
+        opacity: .5;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.page3 .p3main li .mask > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: 170px;
+}
+
+.page3 .p3main li:nth-of-type(3) .mask > img {
+
+    margin-left: -0px;
+    margin-top: 174px;
+}
+
+/*descBox*/
+/**************.descBox****com**page5*****/
+
+.descBox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    /*display: none;*/
+}
+
+.closeAll {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    border: 0;
+    background: url("../images/spritAll.fw.png") no-repeat 0px -564px;
+}
+
+.closeAll:hover {
+    background: url("../images/spritAll.fw.png") no-repeat 0px -527px;
+
+}
+
+.descBoxIn {
+    width: 100%;
+    height: 100%;
+    background: url("../images/p3desc1.jpg");
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    background-size: cover;
+
+}
+
+.descBoxIn:nth-of-type(2) {
+    background: url("../images/p3desc2.jpg");
+}
+
+.descBoxIn:nth-of-type(3) {
+    background: url("../images/p3desc3.jpg");
+}
+
+.descBoxIn:nth-of-type(4) {
+    background: url("../images/p3desc4.jpg");
+}
+
+/**************.descBox****com**page5*****/
+
+/**************.descBox1****com*******/
+.descBox1 {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 210px;
+    margin-left: -590px;
+}
+
+.descBox1 .line {
+    display: block;
+    width: 60px;
+    height: 8px;
+    background: rgba(255, 255, 255, .9);
+}
+
+.descBox1 h2 {
+    font-size: 24px;
+    line-height: 48px;
+}
+
+/**************.descBox1****com*******/
+
+/****************************page4*/
+.page4 .p4In {
+    width: 1012px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -506px;
+    top: 60px;
+}
+
+.page4 .descBox1 {
+    height: 100px;
+    position: static;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.page4 .p4In ul {
+    height: 443px;
+    width: 200%;
+    /*//js动画*/
+    position: relative;
+    transition: left 1s;
+    /*//js动画end*/
+}
+
+.page4 .p4In li {
+    display: none;
+    width: 248px;
+    height: 443px;
+    margin-right: 5px;
+    background: #fff;
+    float: left;
+}
+
+.page4 .p4In .top {
+    position: relative;
+    height: 287px;
+    width: inherit;
+    overflow: hidden;
+}
+
+.page4 .p4In li .top img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 500ms;
+
+}
+
+.page4 .p4In li:hover .top img {
+    width: 110%;
+    left: -12px;
+    top: -14px;
+}
+
+.page4 .p4In .bot {
+    height: 156px;
+    background: #fff;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+.page4 .p4In .bot h2 {
+    font-size: 18px;
+    color: #2b2b2b;
+    margin-bottom: 8px;
+    text-shadow: none;
+}
+.page4 .p4In .bot p{
+    text-shadow: none ;
+}
+
+    /*按钮处理*/
+.page4 .nextBtn, .page4 .preBtn {
+    width: 45px;
+    height: 45px;
+    background: #d01a43;
+    position: fixed;
+    z-index: 999;
+    right: 110px;
+    top: 50%;
+    margin-top: -63px;
+}
+
+.page4 .preBtn {
+    left: 110px;
+    display: none;
+}
+
+.page4 .nextBtn i, .page4 .preBtn i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(13px) translateY(7px) rotateX(35deg) rotateZ(-45deg);
+}
+
+.page4 .nextBtn i {
+    transform: translateX(3px) translateY(7px) rotateX(35deg) rotateZ(135deg);
+}
+
+/*按钮处理 end*/
+
+/****************************page5*/
+.page5 {
+
+}
+
+.page5 .p5bg {
+    width: 100%;
+}
+
+.page5 .glow {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -167px;
+    margin-left: -400px;
+}
+
+.page5 .glow:nth-of-type(2) {
+    margin-top: -60px;
+    margin-left: 50px;
+}
+
+.page5 .glow:nth-of-type(3) {
+    margin-top: -67px;
+    margin-left: -470px;
+}
+
+.page5 .glow .point {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.page5 .glow .point .pointbg {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    animation: changeBig 2s infinite;
+}
+
+@keyframes changeBig {
+    0% {
+        width: 32px;
+        height: 32px;
+        left: -2px;
+        top: -1px;
+        opacity: .9;
+    }
+    100% {
+        width: 62px;
+        height: 62px;
+        left: -17px;
+        top: -16px;
+        opacity: 0;
+    }
+}
+
+.page5 .glow .point .pointCenter {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url("../images/spritAll.fw.png") no-repeat -28px -92px;
+}
+
+.page5 .glow .tip {
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    left: -12px;
+    top: 40px;
+    display: none;
+}
+
+.page5 .descBoxIn {
+    background: url("../images/bg_003.jpg");
+    background-size: cover;
+
+}
+
+.page5 .descBox1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 310px;
+}
+
+.page5 .p5plectrum .descBox1 {
+    margin-top: -130px;
+    margin-left: -180px;
+}
+
+.page5 table {
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -990px;
+
+}
+
+.page5 table td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px;
+
+}
+
+.page5 .p5motor, .engine {
+    width: 300px;
+    position: relative;
+    top: 260px;
+    left: 50%;
+    margin-left: -70px;
+}
+
+.page5 .engine {
+    width: 310px;
+    display: none;
+}
+
+.p5Btn {
+    width: 290px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 25px;
+    margin-top: -235px;
+    background: url("../images/p5Btnline.png") no-repeat 10px 40px;
+    transform: scale(.9);
+}
+
+.p5Btn .big8 {
+    position: absolute;
+    left: 40px;
+    top: -50px;
+    cursor: pointer;
+}
+
+@keyframes btnRotate {
+    0% {
+        transform: rotate(0deg);
+        opacity: .8;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.p5Btn .bigbg {
+    position: absolute;
+    left: 39px;
+    top: -49px;
+    animation: btnRotate 1s infinite alternate;
+}
+
+.p5Btn .small24L {
+    position: absolute;
+    left: 184px;
+    top: -40px;
+    cursor: pointer;
+}
+
+.p5Btn .smallbg8 {
+    position: absolute;
+    left: 228px;
+    top: 3px;
+    width: 80px;
+    animation: btnRotate 1s linear infinite;
+
+}
+
+.p5Btn .smallbg {
+    position: absolute;
+    left: 39px;
+    top: -49px;
+    animation: btnRotate 1.1s infinite alternate;
+
+}
+
+.page5 .p5motorShadow {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    margin-left: -520px;
+    animation: flash 1.5s linear infinite alternate;
+}
+
+.page5 .p5circle {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    margin-left: -340px;
+    animation: flash 1s linear infinite alternate;
+}
+
+.page5 .p5plectrum {
+    width: 780px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: -550px;
+    transition: left 1s;
+}
+
+.page5 .p5plectrum img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.page5 .p5plectrum:hover {
+    left: -150px;
+
+}
+
+@keyframes flash {
+    0% {
+        transform: scale(0.8);
+        opacity: .9;
+    }
+    100% {
+        transform: scale(1);
+        opacity: .7;
+    }
+}
+
+.page5 .descBox1 h2 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.page5 .descBox1 p {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/*导航按钮*/
+
+/****************************page6*/
+
+.page6 .descPage .lookDescBtn {
+    margin-top: 18px;
+    display: block;
+    width: 96px;
+    height: 26px;
+    background: url("../images/spritAll.fw.png") -104px -70px;
+}
+
+/************************page6 隐藏部分*/
+.page6 .descBox {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.page6 .descBoxIn {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    color: #fff;
+}
+
+.blur {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    background: url("../images/p6pic.jpg");
+    background-size: 110%;
+}
+
+.page6 .descBoxIn .p6ban {
+    width: 710px;
+    height: 450px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    margin-top: -230px;
+    margin-left: -300px;
+}
+
+.page6 .descBoxIn ul {
+    width: 100%;
+    height: 100%;
+}
+
+.page6 .descBoxIn ul li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.page6 .descBoxIn ul li img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.page6 .descBoxIn li .p6DescBan {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 95px;
+    padding-left: 42px;
+    padding-top: 10px;
+    background: rgba(0, 0, 0, .4);
+
+}
+
+.page6 .descBoxIn li .p6DescBan p {
+    border: none;
+    text-shadow: none;
+}
+
+.page6 .descBoxIn li .p6DescBan h2 {
+    text-shadow: none;
+}
+
+.page6 .descBoxIn ol {
+
+}
+
+.page6 .descBoxIn ol .banLeftBtn {
+    position: absolute;
+}
+
+.page6 .closeAll {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 0;
+    background: url("../images/spritAll.fw.png") no-repeat 0px -564px;
+    transform: scale(0.6);
+    cursor: pointer;
+}
+
+.page6 .closeAll:hover {
+    background: url("../images/spritAll.fw.png") no-repeat 0px -527px;
+
+}
+
+/*按钮处理*/
+.page6 .nextBtn, .page6 .preBtn {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 999;
+    right: 210px;
+    top: 50%;
+    margin-top: -63px;
+}
+
+.page6 .preBtn {
+    left: 317px;
+}
+
+.page6 .nextBtn i, .page6 .preBtn i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(13px) translateY(7px) rotateX(35deg) rotateZ(-45deg);
+}
+
+.page6 .nextBtn i {
+    transform: translateX(3px) translateY(7px) rotateX(35deg) rotateZ(135deg);
+}
+
+/**************.descPage****com*******/
+.descPage {
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    margin-top: 190px;
+    margin-left: -530px;
+    color: #fff;
+}
+
+.page2 .descPage {
+    margin-left: -150px;
+}
+.page6 .descPage {
+    margin-top: 100px;
+}
+
+.page3 .descPage {
+    margin-top: -70px;
+    margin-left: -630px;
+}
+
+.descPage .line {
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: rgba(255, 255, 255, .9);
+}
+
+.descPage h2 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.descPage p {
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+/*页面切换动画--落空类*/
+
+section .descPage {
+    overflow: hidden;
+    transform: scale(.8);
+    transform-origin: 0 center;
+    opacity: 1;
+    transition: all 2s 1s;
+    perspective: 1000px;
+}
+
+section.current .descPage {
+    overflow: hidden;
+    transform: scale(0);
+    opacity: 0;
+
+}
+
+/**************.page6end***********/
+/**************.page7***********/
+.page7 ul {
+    width: 630px;
+    height: 320px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -80px;
+    margin-left: -180px;
+    overflow: hidden;
+}
+.page7 ul li{
+    width: 630px;
+    height: 320px;
+    display: none;
+}
+.page7 ol {
+    width: 335px;
+    height: 48px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 240px;
+    margin-left: -240px;
+}
+
+.page7 ol li {
+    width: 42px;
+    height: 48px;
+    float: left;
+    margin-left: 25px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.page7 ol li span{
+    display: block;
+    margin-left: 6px;
+    width: 23px;
+    height: 23px;
+    background: url("../images/spritAll.fw.png") no-repeat -97px -381px;
+
+}
+.page7 ol li:nth-of-type(2) span{
+    background: url("../images/spritAll.fw.png") no-repeat -24px -381px;
+}.page7 ol li:nth-of-type(3) span{
+    background: url("../images/spritAll.fw.png") no-repeat -48px -381px;
+}.page7 ol li:nth-of-type(4) span{
+    background: url("../images/spritAll.fw.png") no-repeat -72px -381px;
+}.page7 ol li:nth-of-type(5) span{
+    background: url("../images/spritAll.fw.png") no-repeat -0px -381px;
+}
+.page7 ol li strong{
+    font-size: 12px;
+    color: #7a7a7a;
+}
+.page7 .p7cur strong{
+    color: #fff;
+    font-weight: bold;
+}
+.page7 .p7active{
+    display: block;
+}
+
+/**************.page7end***********/

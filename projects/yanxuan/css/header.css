@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 12px;
+    font-family: '微软雅黑';
+}
+
+.contain {
+    /*版心*/
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.oh {
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.dn {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+b, u, i, em, strong {
+    display: inline-block;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* ---------------------------------------------header page----------------------------------------------- */
+.header {
+    height: 36px;
+    background: #333333;
+}
+
+.header .headerIn {
+    height: 36px;
+    line-height: 36px;
+
+}
+
+.header .headLeft {
+    color: #ccc;
+}
+
+.header .headLeft a {
+    margin-left: 30px;
+    color: #B4A078;
+}
+
+.header .headLeft a:hover {
+    text-decoration: underline;
+}
+
+.header .headRight {
+    position: relative;
+    /*width: 384px;*/
+}
+
+.header .headRight .service {
+    width: 87px;
+    position: relative;
+}
+
+.header .headRight .service .arr {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0px 0 0 10px;
+    border-right: 1px solid #5C5C5C;
+    border-bottom: 1px solid #5C5C5C;
+    transform: translateY(2px) rotate(-135deg);
+}
+
+.header .headRight .service .arr.cur {
+    transform: rotate(45deg);
+
+}
+
+.header .headRight .service .dropMenu {
+    width: 80px;
+    height: 164px;
+    background: #fff;
+    position: absolute;
+    z-index: 99;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+}
+
+.header .headRight .triangle {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0px 0 0 10px;
+    background: #fff;
+    transform: translateY(2px) rotate(-135deg);
+    position: absolute;
+    top: -6px;
+    left: 33%;
+}
+
+.header .headRight .dropMenu a {
+    display: block;
+    margin: 0 13px;
+    line-height: 38px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #999;
+
+}
+
+.header .headRight .dropMenu .onlineService {
+    position: relative;
+}
+
+.header .headRight .dropMenu .onlineService:hover p {
+    display: block;
+    background: #fff;
+}
+
+.header .headRight .dropMenu .onlineService p {
+    position: absolute;
+    left: 67px;
+    top: 0px;
+    width: 110px;
+    height: 57px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+    text-align: center;
+    line-height: 24px;
+
+}
+
+.header .dropMenu .onlineService p i {
+    font-size: 14px;
+    display: block;
+}
+
+.header .dropMenu .onlineService p time {
+    font-size: 12px;
+    display: block;
+}
+
+.header .headRight li {
+    float: left;
+    padding-right: 10px;
+}
+
+.header .headRight li:last-child {
+    position: relative;
+}
+
+.header .headRight li:last-child:hover .qrcode {
+    display: block;
+}
+
+.header .headRight li:last-child .downIcon {
+    width: 7px;
+    height: 11px;
+    background: url("../images/spriteSmallIcon.png") no-repeat 0 -4139px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.header .headRight .qrcode .triangle {
+    top: -9px;
+    left: 48%;
+}
+
+.header .headRight .qrcode {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    width: 140px;
+    height: 156px;
+    background: #fff;
+    text-align: center;
+    padding-top: 10px;
+    right: -20px;
+    top: 40px;
+    color: #B4A078;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .2);
+}
+
+.header .headRight li:nth-child(1), .header .headRight li:nth-child(2) {
+    margin-right: 20px;
+    padding: 0;
+
+}
+
+.header .headRight li .split {
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background: #5C5C5C;
+    position: relative;
+    top: 4px;
+    left: 0;
+    margin-right: 10px;
+}
+
+/* ---------------------------------------------nav page----------------------------------------------- */
+.nav {
+    background: #fff;
+    position: relative;
+}
+
+.navIn {
+    height: 132px;
+    background: #fff;
+    position: relative;
+}
+
+.navIn .logo {
+    width: 180px;
+    height: 60px;
+    margin: 50px 0 0 434px;
+}
+
+.navIn .search {
+    width: 327px;
+    height: 32px;
+    margin: 65px 10px 0 0;
+}
+
+.navIn .search input {
+    width: 252px;
+    height: 32px;
+    color: #B4A078;
+    border-bottom: 1px solid #B4A078;
+}
+
+.navIn .search input:focus {
+    outline: none;
+}
+
+.navIn .search input::-webkit-input-placeholder {
+    color: #B4A078;
+}
+
+.navIn .search .searchAll {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    width: 22px;
+    height: 21px;
+    background: url("../images/spriteSmallIcon.png") no-repeat 0px -5291px;
+}
+
+.navIn .search .searchAll:hover {
+    background: url("../images/spriteSmallIcon.png") no-repeat 0px -5259px;
+
+}
+
+.nav .buyCar {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    top: 9px;
+    left: 19px;
+    background: url("../images/spriteSmallIcon.png") no-repeat 0px -343px;
+}
+
+.nav .buyCar:hover {
+    background: url("../images/spriteSmallIcon.png") no-repeat 0px -311px;
+}
+
+.nav .buySum {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: #d4282d;
+    border-radius: 50%;
+    position: absolute;
+    top: -9px;
+    left: 11px;
+    text-align: center;
+    line-height: 19px;
+    color: #fff;
+}
+
+.nav .navTab {
+    width: 1053px;
+    height: 60px;
+
+}
+
+.navTabIn {
+    width: 100%;
+    background: #fff;
+    height: 60px;
+}
+
+.nav .fix {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    margin: 0;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .2);
+    z-index: 99;
+}
+
+.navTabIn.fix {}
+
+.nav .down {
+    position: static;
+    height: 60px;
+}
+
+.nav .navTab .tabLogo {
+    margin: 14px 50px 0 0;
+    width: 105px !important;
+    height: 35px;
+    background: url("../images/sprite.png") no-repeat 0 -388px;
+}
+
+.nav .navTab .logoShow {
+    float: right;
+    width: 106px !important;
+}
+
+.nav .navTab .logoShow a {
+    font-weight: normal;
+    color: #666;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.nav .navTab li.zhenXuanJia {
+    width: 60px !important;
+}
+
+.nav .navTab li.zhuanTi span {
+    left: 36px !important;
+}
+.nav .navTab li.zhenXuanJia span {
+    left: 16px !important;
+}
+
+.nav .navTab .zhuanTi .split {
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background: #5C5C5C;
+    position: relative;
+    top: 4px;
+    left: -20px;
+    margin-right: 10px;
+}
+
+.nav .navTab li {
+    float: left;
+    width: 88px;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+}
+
+.nav .navTab li a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.nav .navTab li a:hover {
+    color: #B4A078;
+}
+
+
+
+
+.nav .navTab li.cur a{
+    color: #B4A078;
+    border-bottom: 2px solid #B4A078;
+}
+
+
+
+.nav .navCon {
+    text-align: center;
+    background: #fff;
+    height: 104px;
+}
+
+.nav .navCon li {
+    display: inline-block;
+    width: 60px;
+    height: 75px;
+    margin-right: 60px;
+
+}
+
+.nav .navCon li.cur {
+
+    margin-right: 0px;
+}
+
+.nav .navCon li a {
+    display: inline-block;
+    width: 60px;
+    height: 75px;
+    text-align: center;
+}
+
+.nav .navCon li a p {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav .navCon li a:hover p {
+    color: #B4A078;
+}
+
+.navBoxIn {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .2);
+    z-index: 99;
+}
+
+.nav .navBoxInfix {
+    position: fixed;
+    top: 60px;
+}
+
+.nav .navBoxIndown {
+    position: absolute;
+    z-index:99;
+}
+
+.navIn .navCon li a p {
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+    line-height: 24px;
+}

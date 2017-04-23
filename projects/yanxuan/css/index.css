@@ -1,0 +1,611 @@
+/* ---------------------------------------------banner
+page----------------------------------------------- */
+body{
+    width: 100%;
+    height: 100%;
+}
+.banner-warp {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.banner{
+    width: 1920px;
+    height: 480px;
+    position: relative;
+    left:50%;
+    margin-left:-960px;
+
+}
+.banner .banner-imgs {
+    width:9600px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.banner .banner-imgs li {
+    float: left;
+}
+.banner .banner-points {
+    width: 200px;
+    height: 26px;
+    position: absolute;
+    text-align: center;
+    left:50%;
+    bottom: 84px;
+    z-index: 9;
+    margin-left: -100px;
+}
+.banner .banner-points li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    background: #ffffff;
+    margin: 0 10px;
+    border: 1px solid #b4a078;
+    cursor: pointer;
+}
+.banner .banner-points li.active{
+    background: #a7936e;
+    box-shadow: 0px 0px 0px 4px #888888;
+}
+.banner .btn-group {
+    width: 1090px;
+    margin:0 auto;
+    position: relative;
+}
+.banner .btn-prev {
+    display:block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -60px;
+    top: 160px;
+    background: #E7E2D7;
+    border-radius: 50%;
+}
+
+.banner .btn-prev:before{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-bottom:1px solid #fff;
+    border-right:1px solid #fff;
+    transform: rotate(135deg);
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -4px;
+    margin-top:-7px;
+}
+
+.banner .btn-next {
+    display:block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -60px;
+    top: 160px;
+    background: #E7E2D7;
+    border-radius: 50%;
+}
+
+
+.banner .btn-next:before{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-bottom:1px solid #fff;
+    border-right:1px solid #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -11px;
+    margin-top:-7px;
+}
+/* ---------------------------------------------product page----------------------------------------------- */
+
+.product-warp{
+
+    width: 1090px;
+    height: 442px;
+    margin:30px auto 0px;
+
+}
+.product{
+    width: 1090px;
+    height: 442px;
+}
+
+.product-title{
+    overflow: hidden;
+    position: relative;
+    width: 1090px;
+}
+
+.product-title h2{
+    font-size: 28px;
+    color:#000;
+    float: left;
+}
+.product-title p {
+    font-size: 12px;
+    color:#000;
+    float: left;
+    margin-top:18px;
+    padding-left: 10px;
+}
+.product-title span{
+    font-size: 12px;
+    color:#000;
+    float: right;
+    margin-top:18px;
+}
+
+.product-title .btn-more{
+    font-size: 12px;
+    color:#000;
+}
+.product-title .btn-more:hover{
+
+    color:orange;
+}
+
+/* ---------------------------------------------list page----------------------------------------------- */
+.itemList{
+    width: 1090px;
+    height: 375px;
+    margin-top:20px;
+}
+.itemList li {
+    width: 265px;
+    height: 325px;
+    float: left;
+    text-align: center;
+    margin-right:10px;
+}
+
+.itemList li a{
+    text-align: center;
+    font-size: 13px;
+    margin-top:10px;
+    color:#000;
+    display: block;
+}
+.itemList li a:hover{
+    color:orange;
+}
+
+.itemList li span {
+    margin-top:15px;
+    text-align: center;
+    color:red;
+    font-weight: normal;
+    font-size: 12px;
+
+}
+
+.item-warp{
+    width: 1090px;
+    height: 375px;
+    overflow: hidden;
+    position: relative;
+}
+
+.item-box{
+    width: 2290px;
+    height: 375px;
+    position: absolute;
+    z-index: 0;
+}
+.itemList .itemList-item li:last-child{
+    margin-right:0;
+}
+
+.itemList .btnList{
+    height: 325px;
+    width: 1090px;
+    position: absolute;
+    z-index: 9;
+}
+
+.itemList .btnList .btn-prev{
+    display:block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left:-30px;
+    top: 107px;
+    background: #E7E2D7;
+    border-radius: 50%;
+}
+.itemList .btnList .btn-prev:before{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-bottom:1px solid #fff;
+    border-right:1px solid #fff;
+    transform: rotate(135deg);
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -4px;
+    margin-top:-7px;
+}
+
+.itemList .btnList .btn-next{
+    display:block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -30px;
+    top: 107px;
+    background: #E7E2D7;
+    border-radius: 50%;
+}
+.itemList .btnList .btn-next:before{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-bottom:1px solid #fff;
+    border-right:1px solid #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -11px;
+    margin-top:-7px;
+}
+
+
+
+
+
+/* ---------------------------------------------popular
+page----------------------------------------------- */
+.popular-warp{
+    height: 600px;
+    background: #f4f0ea;
+}
+
+.popular-box{
+    width: 1090px;
+    height: 490px;
+    margin-top:45px;
+}
+.popular-title h2{
+    font-size: 28px;
+    color:#000;
+    float: left;
+}
+.popular-title p {
+    font-size: 12px;
+    color:#000;
+    float: left;
+    margin-top:18px;
+    padding-left: 10px;
+}
+.popular-title span{
+    font-size: 12px;
+    color:#000;
+    float: right;
+    margin-top:18px;
+}
+
+.popular-content{
+    width: 1090px;
+    height: 430px;
+    overflow: hidden;
+    margin-top:20px;
+}
+
+.popular-item1{
+    width: 390px;
+    height: 430px;
+    background: #fff;
+    float: left;
+    margin-right:10px;
+    text-align: center;
+}
+.popular-item1 img   {
+    cursor: pointer;
+}
+.popular-item1 img:hover{
+    transform: scale(1.1);
+    transition:2s;
+}
+.popular-item1 p {
+    text-align: center;
+    color:#000;
+}
+.popular-item1 p:hover{
+    color:orange;
+}
+.popular-item1 span {
+    display: inline-block;
+    margin-top:5px;
+    color:red;
+}
+
+
+
+
+.popular-item2{
+    width: 223px;
+    height: 210px;
+    background: #fff;
+    float: left;
+    margin:0 10px 10px 0;
+    text-align: center;
+}
+
+.popular-item2 p {
+    text-align: center;
+    color:#000;
+}
+.popular-item2 p:hover{
+    color:orange;
+}
+.popular-item2 img:hover{
+    transform: scale(1.1);
+    transition:2s;
+}
+.popular-item2 span {
+    display: inline-block;
+    margin-top:5px;
+    color:red;
+}
+
+.popular-item2:nth-child(4),.popular-item2:nth-child(7){
+    margin-right:0;
+}
+
+.popular-item2 img   {
+    cursor: pointer;
+}
+
+
+/* ---------------------------------------------res page----------------------------------------------- */
+.restriction{
+    width: 1090px;
+    height: 440px;
+    margin-top:60px;
+    color:#000;
+}
+
+
+.restriction-title h2{
+    font-size: 28px;
+    color:#000;
+    float: left;
+}
+
+.restriction-title span{
+    font-size: 12px;
+    color:#000;
+    float: right;
+    margin-top:18px;
+}
+
+.restriction-box {
+    overflow: hidden;
+    margin-top:20px;
+}
+.restriction-countdown {
+    float: left;
+    width: 224px;
+    height: 337px;
+    background: url("../images/xianshi.jpg")no-repeat;
+
+    background-size: auto;
+}
+
+.restriction-countdown .countdown-item-warp {
+    float: left;
+}
+.countdown-item {
+    overflow: hidden;
+    width: 432px;
+    height: 167px;
+    border-top:1px solid #f0ece4;
+    border-right:1px solid #f0ece4;
+    float: left;
+}
+.countdown-item:nth-child(n+3){
+    border-bottom:1px solid #f0ece4;
+}
+.countdown-item dt {
+    float: left;
+}
+.countdown-item dd {
+    float: left;
+}
+
+
+/* ---------------------------------------------coun page----------------------------------------------- */
+.countdown-item dd h5{
+    font-size:15px;
+    margin-top: 10px;
+    }
+.countdown-item dd .dec{
+    marigin-top:12px;
+    font-size: 12px;
+    color:#999;
+}
+.countdown-item dd .balance {
+    margin-top: 6px;
+}
+.countdown-item dd .balance div{
+    display:inline-block;
+    width: 152px;
+    height: 10px;
+    border:1px solid #999;
+    border-radius:20px;
+    overflow: hidden;
+}
+.countdown-item dd .balance div span{
+    display: block;
+    width: 70px;
+    height: 10px;
+    background: #ffe5e5;
+}
+.countdown-item dd .balance strong{
+    font-size: 13px;
+    color:#999;
+    padding-left: 10px;
+}
+
+.countdown-item dd .price {
+    margin-top: 9px;
+    color:#be4141;
+    font-size: 13px;
+}
+.countdown-item dd .price strong{
+    font-size: 19px;
+    color:#be4141;
+}
+.countdown-item dd .price i{
+    padding-left: 10px;
+    color:#999;
+    font-style: normal;
+}
+.countdown-item dd .price s{
+
+    color:#999;
+}
+
+.countdown-item dd button {
+    margin-top: 12px;
+    width: 118px;
+    height: 30px;
+    background: #be4141;
+    color:#fefefe;
+}
+
+
+
+
+/* ---------------------------------------------household
+page----------------------------------------------- */
+
+.household {
+    height: 754px;
+
+}
+
+
+.household-title h2{
+    font-size: 28px;
+    color:#000;
+    float: left;
+}
+.household-title .dec-left {
+    border-left:1px solid #000;
+}
+.household-title p {
+    font-size: 12px;
+    color:#000;
+    float: left;
+    margin-top:18px;
+    margin-left:5px;
+    padding-left: 5px;
+
+}
+.household-title span{
+    font-size: 12px;
+    color:#000;
+    float: right;
+    margin-top:18px;
+
+}
+.household-title a{
+    color:#000;
+    /* margin-left: 23px; */
+    padding-left: 23px;
+}
+.household-title .btn-group {
+    float: right;
+}
+.household-title .btn-spec {
+    position: relative;
+    color:#000;
+}
+.household-title .btn-spec:before {
+    content:"";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-right:1px solid #000;
+    transform: rotate(30deg);
+    left: 46px;
+    top: -2px;
+}
+
+.household-title .btn-spec:nth-child(2):before {
+    left: 71px;
+    top: -2px;
+}
+
+
+.household .content-img{
+    width: 1090px;
+    height: 310px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.household .content-img img{
+    width: 100%;
+}
+
+.household .content-goods {
+    margin-top:20px;
+    width: 1090px;
+    height: 325px;
+}
+.household .content-goods .content-goods-item{
+    width: 265px;
+    height: 325px;
+    text-align: center;
+    float: left;
+    margin-right:10px;
+}
+.household .content-goods .content-goods-item:last-child{
+    margin-right:0;
+}
+
+.household .content-goods .content-goods-item .item-img{
+    width: 265px;
+    height: 265px;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+.household .content-goods .content-goods-item img{
+
+    transition: 1s;
+}
+.household .content-goods .content-goods-item img:hover{
+    transform: scale(1.1);
+}
+.household .content-goods .content-goods-item h4{
+    margin-top:10px;
+}
+
+.household .content-goods .content-goods-item h4 a{
+    font-size: 14px;
+    color:#000;
+}
+
+.household .content-goods .content-goods-item p {
+    margin-top:10px;
+    color:red;
+}
+
+
